@@ -19,7 +19,7 @@ while True:
 	        has_alpha = True
 
 
-	if length >= 8 and has_dight and has_alpha:
+	if length >= 8 and has_digit and has_alpha:
 	    print("密码强度：强")
 	else:
 	    print("密码强度：弱，建议更改！")
